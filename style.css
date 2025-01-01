@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: grey;
+}
+header .navbar{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+}
+#navRight{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    list-style: none;
+}
+hr{
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: black;
+}
