@@ -5,8 +5,15 @@
 }
 body{
     background-color: grey;
+    font: caption;
 }
-header .navbar{
+
+header{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./images/mainBackground.png");
+}
+.navbar{
     height: 100px;
     width: 100%;
     display: flex;
@@ -14,14 +21,48 @@ header .navbar{
     align-items: center;
     gap: 50px;
 }
-#navRight{
+.logo img{
+    height: 45px;
+    width: 120px;
+
+}
+ul{
     display: flex;
     justify-content: space-between;
     gap: 50px;
     list-style: none;
 }
+#navRight a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
 hr{
-    padding-left: 100px;
-    padding-right: 100px;
-    background-color: black;
+    margin: 0px 100px;
+}
+.headerContent{
+    margin: 85px 0px 0px 150px;
+}
+.headerContent h1{
+    width: 800px;
+    color: white;
+    font-weight: bolder;
+    font-size: 4.5rem;
+    margin-bottom: 30px;
+}
+.headerContent p{
+    width: 410px;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 18px;
+}
+.headerContent button{
+    height: 50px;
+    width: 160px;
+    padding: 10px;
+    border-radius: 25px;
+    border: none;
+    background-color: rgb(92, 92, 244);
+    color: white;
+    font-size: 18px;
 }
